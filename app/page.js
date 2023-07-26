@@ -129,12 +129,11 @@ export default function Home() {
         <div>
           <h3 className='text-3xl py-1'>Portfolio</h3>
           <p className='text-md py-5 leading-8 text-gray-800'>
-            I am passionate about leveraging data to solve complex problems and have expertise in 
-            <span className='text-teal-500'> Data Engineering, web development, machine learning, and AI.</span> 
-            Currently pursuing a <span className='text-teal-500'>Masters degree in Computer Science</span> at Santa Clara University, I am focused on advanced topics like machine learning and AI.
+          <span className='text-teal-500'>Explore my projects </span> showcasing a diverse range of web development, data engineering and AI/ML ventures. 
           </p>
           <p className='text-md py-5 leading-8 text-gray-800'>
-            I am an adept developer with a web development background, skilled in building intelligent systems and applying ML algorithms to real-world challenges. My focus is on creating engaging, user-friendly experiences that blend aesthetics with functionality. Check out my portfolio for more on my projects and achievements.
+          From responsive websites built with React to data-driven solutions leveraging Python, SQL, and cloud technologies, 
+          these projects highlight my expertise and passion for creating impactful and innovative solutions.
           </p>
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
