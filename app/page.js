@@ -75,7 +75,7 @@ export default function Home() {
           <p className='text-md py-5 leading-8 text-gray-800'>
             I am passionate about leveraging data to solve complex problems and have expertise in 
             <span className='text-teal-500'> Data Engineering, web, machine learning, and AI development.</span> 
-            Currently pursuing a <span className='text-teal-500'>Master's degree in Computer Science</span> at Santa Clara University, I am focused on advanced topics like machine learning and AI.
+            Currently pursuing a <span className='text-teal-500'>Master&aposs degree in Computer Science</span> at Santa Clara University, I am focused on advanced topics like machine learning and AI.
           </p>
           <p className='text-md py-5 leading-8 text-gray-800'>
             I am an adept developer with a web development background, skilled in building intelligent systems and applying ML algorithms to real-world challenges. My focus is on creating engaging, user-friendly experiences that blend aesthetics with functionality. Check out my portfolio for more on my projects and achievements.
