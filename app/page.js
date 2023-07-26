@@ -129,12 +129,12 @@ export default function Home() {
         <div>
           <h3 className='text-3xl py-1'>Portfolio</h3>
           <p className='text-md py-5 leading-8 text-gray-800'>
-          <span className='text-teal-500'>Explore my projects </span> showcasing a diverse range of web development, data engineering and AI/ML ventures. 
+            <span className='text-teal-500'>Explore my projects </span> showcasing a diverse range of web development, data engineering and AI/ML ventures. 
+            <br/>
+            From responsive websites built with React to data-driven solutions leveraging Python, SQL, and cloud technologies, 
+            these projects highlight my expertise and passion for creating impactful and innovative solutions.
           </p>
-          <p className='text-md py-5 leading-8 text-gray-800'>
-          From responsive websites built with React to data-driven solutions leveraging Python, SQL, and cloud technologies, 
-          these projects highlight my expertise and passion for creating impactful and innovative solutions.
-          </p>
+          
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           <div className='basis-1/3 flex-1 '>
