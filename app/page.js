@@ -58,9 +58,9 @@ export default function Home() {
         </div>
 
         <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-          <a href="https://www.twitter.com"><AiFillTwitterCircle/></a>
           <a href="https://www.linkedin.com/in/rohan-lagare"><AiFillLinkedin/></a>
           <a href="https://www.github.com/rohanl1"><AiFillGithub/></a>
+          <a href="https://www.twitter.com"><AiFillTwitterCircle/></a>
         </div>
 
         <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
@@ -167,9 +167,9 @@ export default function Home() {
         </div>
         <div><a href="https://www.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_16359095.htm#query=gradient%20background&position=0&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik</div>
         <div className='text-3xl flex justify-center gap-16 text-gray-600'>
-          <a href="https://www.twitter.com"><AiFillTwitterCircle/></a>
           <a href="https://www.linkedin.com/in/rohan-lagare"><AiFillLinkedin/></a>
           <a href="https://www.github.com/rohanl1"><AiFillGithub/></a>
+          <a href="https://www.twitter.com"><AiFillTwitterCircle/></a>
         </div>
       </footer>
     </main>
