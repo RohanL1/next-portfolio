@@ -52,8 +52,8 @@ export default function Home() {
           <h3 className='text-2xl py-2 md:text-3xl'>
             Software Engineer
           </h3>
-          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
-            Hello, there! I am a Software & AI/ML developer and Data Engineer.
+          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-4xl mx-auto'>
+          Experienced in Software & AI/ML development and Data Engineering, I'm passionate about delivering impactful projects.
           </p>
         </div>
 
@@ -165,7 +165,7 @@ export default function Home() {
         <div className='flex items-center'>
           <h4 className='flex justify-center'>Developed by Rohan Lagare</h4>
         </div>
-        <div><a href="https://www.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_16359095.htm#query=gradient%20background&position=0&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik</div>
+        {/* <div><a href="https://www.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_16359095.htm#query=gradient%20background&position=0&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik</div> */}
         <div className='text-3xl flex justify-center gap-16 text-gray-600'>
           <a href="https://www.linkedin.com/in/rohan-lagare"><AiFillLinkedin/></a>
           <a href="https://www.github.com/rohanl1"><AiFillGithub/></a>
