@@ -19,9 +19,9 @@ import web6 from '../public/web6.png'
 // import { useState } from 'react'
 
 
-
 export default function Home() {
   // const [darkMode, setDarkmode] = useState(false);
+
   return (
     <main className='bg-white px-10 text-gray-800 md:px-20 lg:px-40'>
      {/* {darkMode ? 'dark bg-white px-10 text-gray-800 md:px-20 lg:px-40' : 'bg-white px-10 text-gray-800 md:px-20 lg:px-40' } */}
@@ -89,7 +89,7 @@ export default function Home() {
             <p className='py-2'>
             Experienced data engineer with 3 years in designing scalable pipelines, ETL, cloud tech.
             </p>
-            <h4 className='py-4 text-teal-600'>Tools I use</h4>
+            <h4 className='py-4 text-teal-600'>Tools</h4>
             <p className='text-gray-800 py-1'>Ab-initio</p>
             <p className='text-gray-800 py-1'>SQL</p>
             <p className='text-gray-800 py-1'>Cloud</p>
@@ -101,7 +101,7 @@ export default function Home() {
             <p className='py-2'>
               Passionate about artificial intelligence and machine learning to create innovative solutions. 
             </p>
-            <h4 className='py-4 text-teal-600'>Tools I use</h4>
+            <h4 className='py-4 text-teal-600'>Tools</h4>
             <p className='text-gray-800 py-1'>Python</p>
             <p className='text-gray-800 py-1'>Scikit-learn</p>
             <p className='text-gray-800 py-1'>Kaggle</p>
@@ -114,7 +114,7 @@ export default function Home() {
             Experienced web developer in MERN stack. 
             Passionate about crafting user-friendly websites.
             </p>
-            <h4 className='py-4 text-teal-600'>Tools I use</h4>
+            <h4 className='py-4 text-teal-600'>Tools</h4>
             <p className='text-gray-800 py-1'>React</p>
             <p className='text-gray-800 py-1'>Tailwind</p>
             <p className='text-gray-800 py-1'>MongoDB</p>
