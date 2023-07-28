@@ -53,7 +53,7 @@ export default function Home() {
             Software Engineer
           </h3>
           <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-4xl mx-auto'>
-          Experienced in Software & AI/ML development and Data Engineering, I'm passionate about delivering impactful projects.
+          Experienced in Software & AI/ML development and Data Engineering, I am passionate about delivering impactful projects.
           </p>
         </div>
 
