@@ -165,7 +165,6 @@ export default function Home() {
         <div className='flex items-center'>
           <h4 className='flex justify-center'>Developed by Rohan Lagare</h4>
         </div>
-        {/* <div><a href="https://www.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_16359095.htm#query=gradient%20background&position=0&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik</div> */}
         <div className='text-3xl flex justify-center gap-16 text-gray-600'>
           <a href="https://www.linkedin.com/in/rohan-lagare"><AiFillLinkedin/></a>
           <a href="https://www.github.com/rohanl1"><AiFillGithub/></a>
