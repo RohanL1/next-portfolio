@@ -1,23 +1,18 @@
 'use client'
 
 import Image from 'next/image'
-import {BsFillMoonStarsFill} from 'react-icons/bs'
+// import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 
 import avatar from '../public/dev-ed-wave.png'
 import web from '../public/code.png'
 import data_eng from '../public/data_eng.png'
 import ai_logo from '../public/ai.png'
-import web1 from '../public/face_rec.png'
-import web2 from '../public/formore.png'
-import web3 from '../public/formore.png'
-import web4 from '../public/formore.png'
-import web5 from '../public/formore.png'
-import web6 from '../public/formore.png'
-// import resume from '/Rohan_Lagare_Resume.pdf'
 
+// import resume from '/Rohan_Lagare_Resume.pdf'
 // import { useState } from 'react'
 
+import project from './project.js'
 
 export default function Home() {
   // const [darkMode, setDarkmode] = useState(false);
@@ -137,30 +132,14 @@ export default function Home() {
           
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-          <div className='basis-1/3 flex-1 '>
-          <a href="https://github.com/RohanL1/face_recognition" target="_blank">
-            <Image src={web1} alt='web1 image' className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
-          </a>
-          </div>
           
-          <div className='basis-1/3 flex-1 '>
-          <a href="https://github.com/RohanL1/" target="_blank">
-            <Image src={web2} alt='web1 image' className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
-          </a>
+        {project.map((item, index) => (
+          <div key={index} className='basis-1/3 flex-1'>
+            <a href={item.link} target="_blank">
+              <Image src={item.img} alt={`web${index + 1} image`} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+            </a>
           </div>
-
-          <div className='basis-1/3 flex-1 '>
-          <a href="https://github.com/RohanL1/" target="_blank">
-            <Image src={web3} alt='web1 image' className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
-          </a>
-          </div>
-
-          <div className='basis-1/3 flex-1 '>
-          <a href="https://github.com/RohanL1/" target="_blank">
-            <Image src={web4} alt='web1 image' className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive'/>
-          </a>
-          </div>
-
+        ))}
 
         </div>
       </section>
